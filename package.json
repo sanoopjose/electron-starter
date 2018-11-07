@@ -1,0 +1,25 @@
+{
+  "name": "electron-starter",
+  "version": "1.0.0",
+  "description": "Electron starter project",
+  "main": "main.js",
+  "devDependencies": {
+    "electron": "^3.0.7",
+    "electron-builder": "^20.29.0"
+  },
+  "scripts": {
+    "package": "build",
+    "package-all": "build -mwl",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanoopjose/electron-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanoopjose/electron-starter/issues"
+  },
+  "homepage": "https://github.com/sanoopjose/electron-starter#readme"
+}
